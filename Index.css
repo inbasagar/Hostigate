@@ -1,0 +1,1569 @@
+@font-face {
+    font-family: 'bold';
+    src: url('../Fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'semibold';
+    src: url('../Fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'medium';
+    src: url('../Fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'black';
+    src: url('../Fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../Fonts/Poppins-Regular.ttf');
+}
+.price
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price sup
+{
+    font-family: 'semibold' !important;
+    font-size: 30px !important;
+}
+.price span
+{
+    font-family: 'bold' !important;
+    font-size: 80px !important;
+}
+.domain-search-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.aboutbrand-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.aboutbrand-descrip
+{
+    font-family: 'semibold';
+    color: orangered;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.tools-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tools-descrip
+{
+    font-family: 'semibold';
+    color: orangered;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.reviews-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.reviews-descrip
+{
+    font-family: 'semibold';
+    color: orangered;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.rating-descrip
+{
+    font-family: 'semibold';
+    color: orangered;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.advantages-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.questions-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.map-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.trustpilot-widget a
+{
+    color: black !important;
+}
+.bodyinfo1-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.hosting-plans-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.control-panel-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rating-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.chat-item-block 
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: 'regular';
+    color: rgb(155, 155, 155);
+    line-height: 2.0rem;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgb(67 67 67 / 20%);
+    border-radius: 6px;
+}
+.chat-item-block #chat
+{
+    color: orangered;
+}
+.chat-item-block #chat:hover
+{
+    text-decoration: none;
+}
+.chat-item-block #chat i
+{
+    font-size: 20px;
+}
+.chat-item-block #call
+{
+    color: orangered;
+}
+.chat-item-block #call:hover
+{
+    text-decoration: none;
+}
+.chat-item-block #call i
+{
+    font-size: 20px;
+}
+@media only screen and (max-width: 393px)
+{
+    .domain-search-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .hosting-plans-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .map-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .bodyinfo1-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .rating-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .questions-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .aboutbrand-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .tools-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .control-panel-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .reviews-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .advantages-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+#navbar
+{
+  padding-left: 20px;
+  padding-right: 40px;
+}
+#navbar .navbar-nav .dropdown-toggle::after
+{
+    display: none;
+}
+#navbar .navbar-nav .dropdown-toggle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar .navbar-nav .nav-item:not(:last-child)
+{
+    margin-right: 20px;
+}
+#navbar .navbar-nav .nav-link
+{
+    font-family: 'semibold';
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#navbar .navbar-nav #login_link
+{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: .22s ease-out;
+}
+#navbar .navbar-nav #login_link:hover{
+    box-shadow: inset 150px 0 0 0 white;
+    color:  #1E90FF;
+}
+#navbar .domain-block
+{
+    margin-top: 20px;
+    width: 275px;
+    padding: 10px 5px 10px 5px;
+}
+#navbar .domain-block .dropdown-item
+{
+    padding: 12px;
+    transition: .4s;
+    font-family: 'medium';
+    font-size: 15px;
+}
+#navbar .domain-block .dropdown-item:hover
+{
+    background-color: white;
+    border-left: 5px solid #1E90FF;
+    cursor: pointer;
+}
+#navbar .hosting-block
+{
+    margin-top: 20px;
+    width: 365px;
+    padding: 10px 5px 10px 5px;
+}
+#navbar .hosting-block .dropdown-item
+{
+    padding: 12px;
+    transition: .4s;
+    font-family: 'medium';
+    font-size: 15px;
+}
+#navbar .hosting-block .dropdown-item:hover
+{
+    background-color: white;
+    border-left: 5px solid #1E90FF;
+    cursor: pointer;
+}
+#navbar .transfer-block
+{
+    margin-top: 20px;
+    width: 275px;
+    padding: 10px 5px 10px 5px;
+}
+#navbar .transfer-block .dropdown-item
+{
+    padding: 12px;
+    transition: .4s;
+    font-family: 'medium';
+    font-size: 15px;
+}
+#navbar .transfer-block .dropdown-item:hover
+{
+    background-color: white;
+    border-left: 5px solid #1E90FF;
+    cursor: pointer;
+}
+#navbar .sale-question
+{
+    cursor: pointer;  
+}
+#navbar .sale-question a
+{
+    color: white !important;
+}
+#navbar .sale-question .nav-link
+{
+    font-size: 14px;
+}
+#navbar .sale-question-block
+{
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 6px;
+    width: 300px;
+    padding: 25px 20px;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 9999;
+}
+#navbar .sale-question-block h5
+{
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'bold';
+    color: black;
+}
+#navbar .sale-question-block::after
+{
+    content: "";
+    background-color: white;
+    border-left: 1px solid rgb(216, 216, 216);
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    top: -15px;
+    position: absolute;
+}
+#navbar .sale-question-block .sale-question-block-head
+{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+#navbar .sale-question-block .sale-question-block-head span
+{
+    font-size: 17px;
+    font-family: 'bold';
+    color: black;
+}
+#navbar .sale-question-block .sale-question-block-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    margin-top: 10px;
+}
+#navbar .sale-question-block .sale-question-block-img img
+{
+    border: 3px solid black;
+}
+#navbar .sale-question-block .sale-question-block-img p
+{
+    font-family: 'regular';
+    font-size: 12px;
+    color: black;
+    margin-bottom: 0px;
+}
+#navbar .sale-question-block .sale-question-block-img
+{
+    font-family: 'regular';
+    font-size: 12px;
+    color: black;
+    border-bottom: 3px solid black;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#navbar .sale-question-block .sale-question-block-img-link:hover
+{
+    text-decoration: none;
+}
+#navbar .sale-question-block .sale-question-block-img .sale-question-block-img-chat-content
+{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 7px;
+    padding: 10px;
+}
+#navbar .sale-question-block .sale-question-block-lower
+{
+    padding-top: 20px;
+}
+#navbar .sale-question-block .sale-question-block-lower a
+{
+    font-family: 'medium';
+    font-size: 16px;
+    color: black;
+}
+#navbar .sale-question-block
+{
+    display: none;
+}
+#chat-op-link
+{
+    font-size: 15px !important;
+}
+#chat-op-link:hover
+{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1218px)
+{
+    #navbar .sale-question
+    {
+        display: none;
+    }
+    #navbar .sale-question-block
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1039px)
+{
+    #navbar .navbar-brand
+    {
+        width: 180px;
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 1079px)
+{
+    #navbar
+    {
+        display: none;
+    }
+    #navbar
+    {
+        padding-right: 20px;
+    }
+}
+#blackmobilenavbar
+{
+    display: none;
+}
+#blackmobilenavbar #menubar-icon
+{
+    color:black;
+}
+#close-icon
+{
+    color: black;
+    font-size: 30px;
+}
+#slider
+{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    left: -100%;
+    transition: .5s;
+    overflow-y: scroll;
+    bottom: 0;
+}
+#slider-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.slider-navbar
+{
+    list-style: none;
+}
+.slider-navbar li
+{
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.slider-navbar li #mobile-nav-link
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'medium';
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.domain-options
+{
+    list-style: none;
+}
+.domain-options li .domain-options-link
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'medium';
+    font-size: 17px;
+}
+.hosting-options
+{
+    list-style: none;
+}
+.hosting-options li .hosting-options-link
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'medium';
+    font-size: 17px;
+}
+.transfer-options
+{
+    list-style: none;
+}
+.transfer-options li .transfer-options-link
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'medium';
+    font-size: 17px;
+}
+.domainexpandbox
+{
+    display: none;
+}
+.hostingexpandbox
+{
+    display: none;
+}
+.transferexpandbox
+{
+    display: none;
+}
+.mobile_login_btn
+{
+    border: 2px solid #1E90FF;
+    color: #1E90FF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'medium';
+    font-size: 17px;
+}
+.mobile_login_btn:hover
+{
+    text-decoration: none;
+    color: #1E90FF;
+}
+.login_btns_block
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 1079px)
+{
+    #blackmobilenavbar
+    {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 1079px)
+{
+    #slider
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    .mobile_login_btn
+    {
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 323px)
+{
+    #blackmobilenavbar .navbar-brand
+    {
+        width: 150px;
+    }
+    #slider-head .navbar-brand
+    {
+        width: 150px;
+    }
+}
+.hero_section
+{
+    background: url('../Images/bg2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero_section .hero_section_block
+{
+    margin-top: 20px;
+}
+.hero_section .hero_section_block .hero-content-block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_section .hero_section_block .hero-content-block h1
+{
+    font-size: 42px;
+    font-family: 'bold';
+    color: black;
+}
+.hero_section .hero_section_block .hero-content-block h6
+{
+    font-size: 25px;
+    font-family: 'semibold';
+    color: black;  
+    margin-top: 30px;
+}
+.hero_section .hero_section_block .hero-content-block #hero-plan-row
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.hero_section .hero_section_block .hero-content-block #hero-plan-row p
+{
+    font-family: 'semibold';
+    color: black;
+    line-height: 2.0rem;
+}
+.hero_section .hero_section_block .hero-content-block .hero-links
+{
+    display: flex;
+    align-items: center;
+}
+.hero_section .hero_section_block .hero-content-block .heroview-plan
+{
+    display: block;
+    padding: 15px 70px;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-family: 'semibold';
+    cursor: pointer;
+    word-break: keep-all;
+}
+.hero_section .hero_section_block .hero-content-block small
+{
+    font-family: 'regular';
+    color: black;
+    
+}
+.hero_section .hero_section_block .hero-content-block .chat-plan
+{
+    font-family: 'semibold';
+    color: black;
+    cursor: pointer;
+}
+.hero_section .hero_section_block .hero-content-block .heroview-plan:hover
+{
+    text-decoration: none;
+}
+.hero_section .hero_section_block .hero-content-block .chat-plan:hover
+{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 340px)
+{
+    .hero_section .hero_section_block .hero-content-block .heroview-plan
+    {
+        display: block;
+        padding: 15px 50px;
+        border-radius: 4px;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        font-family: 'semibold';
+        cursor: pointer;
+        word-break: keep-all;
+    }
+    .hero .hero-content .hero-img
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 460px)
+{
+    .hero_section .hero_section_block .hero-content-block .hero-links
+    {
+        display: block;
+    }
+}
+.brandlogos
+{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brandlogos img:not(:last-child)
+{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 999px)
+{
+    .brandlogos
+    {
+        overflow-x: scroll;
+    }
+    .brandlogos img:not(:last-child)
+    {
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 583px)
+{
+    .brandlogos
+    {
+        margin-top: 40px;
+    }
+}
+.choose-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.bodysharedtop-heading
+{
+    font-family: 'bold';
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.bodysharedtop-descrip
+{
+    font-family: 'semibold';
+    color: orangered;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.bodysharedplan-items
+{
+    padding: 50px 10% 50px 10%;
+}
+@media only screen and (max-width: 393px)
+{
+    .choose-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 393px)
+{
+    .bodysharedplan-heading
+    {
+        font-family: 'bold';
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 503px)
+{
+    .bodysharedplan-items
+    {
+        padding: 50px 20px 100px 20px;
+    }
+}
+.sharedplan
+{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border:  1px solid rgb(216, 216, 216);
+}
+.sharedplan h4
+{
+    font-family: 'bold';
+    color: black;
+}
+.sharedplan h5
+{
+    font-family: 'semibold';
+    color: rgb(155, 155, 155);
+    margin-bottom: 30px;
+}
+.sharedplan .sharedplan-price p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.sharedplan .sharedplan-price p sup
+{
+    font-size: 30px;
+    color: black;
+    font-family: 'bold';
+}
+.sharedplan .sharedplan-price p span
+{
+    font-size: 60px;
+    color: black;
+    font-family: 'bold';
+}
+.sharedplan .sharedplan-price p sub
+{
+    font-size: 18px;
+    color: black;
+}
+.sharedplan .sharedplan-prevprice del
+{
+    font-family: 'regular';
+    color: black;
+    font-size: 17px;
+}
+.sharedplan .sharedplan-offer
+{
+    margin-top: 20px;
+}
+.sharedplan .sharedplan-offer p
+{
+    color: orangered;
+    font-family: 'semibold';
+    font-size: 15px;
+}
+.sharedplan a
+{
+    background-color: orangered;
+    color: white;
+    font-family: 'semibold';
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sharedplan a:hover
+{
+    text-decoration: none;
+}
+.sharedplan .sharedplan-btn:hover
+{
+    background-color: orangered;
+    color: white;
+}
+.sharedplan .sharedplan-offer-descrip
+{
+    color:#1E90FF;
+    font-size: 14px;
+    font-family: 'medium';
+}
+.sharedplan .sharedplan-feature
+{
+    text-align: justify;
+}
+.sharedplan .sharedplan-feature p
+{
+    font-family: 'semibold';
+    color: black;
+}
+.sharedplan .sharedplan-feature p:not(:last-child)
+{
+    margin-bottom: 20px;
+}
+.sharedplan .sharedplan-feature i
+{
+    color: #1E90FF;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 992px)
+{
+    .sharedplan
+    {
+        margin-bottom: 60px;
+        border: 1px solid rgb(216, 216, 216);
+    }
+}
+.hostingplans
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.hostingplans .row p
+{
+    color: black;
+    font-family: 'semibold';
+    line-height: 2.0rem;
+}
+.bodyinfo1
+{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left:5% !important;
+    padding-right: 5% !important;
+}
+.bodyinfo1 .row .bodyinfo1-item
+{
+    padding: 30px 20px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgb(212, 212, 212);
+    border-radius: 6px;
+    border: 1px solid rgb(212, 212, 212);
+    height: 290px;
+    transition: .4s ease-in-out;
+    border-bottom: 10px solid #1E90FF;
+}
+.bodyinfo1 .row .bodyinfo1-item h4
+{
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'black';
+    border-bottom: 5px solid #1E90FF;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.bodyinfo1 .row .bodyinfo1-item p
+{
+    color: black;
+    font-family: 'regular';
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+@media only screen and (max-width: 1159px)
+{
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1089px)
+{
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 992px)
+{
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 431px)
+{
+    .bodyinfo1
+    {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 355px)
+{
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 295px)
+{
+    .bodyinfo1 .row .bodyinfo1-item
+    {
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 25px rgb(212, 212, 212);
+        height: 420px;
+    }
+}
+.control-panel
+{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.control-panel .row .col-lg-4
+{
+    margin-bottom: 40px;
+}
+.control-panel .cp-item
+{
+    text-align: center;
+}
+.control-panel .cp-item h4
+{
+    color: black;
+    font-family: 'bold';
+    font-size: 20px;
+    margin-top: 20px;
+}
+.control-panel .control-panel-item
+{
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.control-panel .control-panel-item h3
+{
+    color: black;
+    font-family: 'bold';
+}
+.control-panel .control-panel-item p
+{
+    color: rgb(155, 155, 155);
+    font-family: 'semibold';
+}
+.control-panel-row2
+{
+    display: none !important;
+}
+@media only screen and (max-width: 768px)
+{
+    .control-panel-row1
+    {
+        display: none !important;
+    }
+    .control-panel-row2
+    {
+        display: block !important;
+    }
+    .control-panel .control-panel-item
+    {
+        text-align: left !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .control-panel .control-panel-item div
+    {
+        margin-bottom: 30px;
+    }
+}
+.advantage
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.advantage .row .advantage-item
+{
+    text-align: center;
+    padding: 20px;
+}
+.advantage .row .advantage-item img
+{
+    margin-bottom: 20px;
+}
+.advantage .row .advantage-item h5
+{
+    color: black;
+    font-family: 'bold';
+}
+.advantage .row .advantage-item p
+{
+    color: rgb(155, 155, 155);
+    font-family: 'regular';
+}
+.map
+{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+.map .map-content .map-pointers
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0%;
+
+}
+.map .map-content .map-pointers .india
+    {
+        position: absolute;
+        top: 45%;
+        left: 70%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .france
+    {
+        position: absolute;
+        top: 28%;
+        left: 51%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .singapore
+    {
+        position: absolute;
+        top: 55.58%;
+        left: 78.5%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .usa
+    {
+        position: absolute;
+        top: 25%;
+        left: 14%;
+        display: flex;
+    }
+.map .map-content .map-pointers .map-pointer
+{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1500px)
+{
+    
+    .map .map-content .map-pointers .india
+    {
+        position: absolute;
+        top: 45%;
+        left: 69.75%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .france
+    {
+        position: absolute;
+        top: 28%;
+        left: 51%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .singapore
+    {
+        position: absolute;
+        top: 55.58%;
+        left: 78.5%;
+        display: flex;
+    }
+    .map .map-content .map-pointers .usa
+    {
+        position: absolute;
+        top: 30%;
+        left: 14%;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 501px)
+{
+    .map
+    {
+        position: relative;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+.questions
+{
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.questions .q-item
+{
+    color: black;
+    font-family: 'semibold';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+.questions .a-item
+{
+    color: rgb(155, 155, 155);
+    font-family: 'semibold';
+    font-size: 15px;
+    padding: 10px 20px;
+    display: none;
+}
+@media only screen and (max-width: 720px)
+{
+    .questions .q-item
+    {
+        color: black;
+        font-family: 'semibold';
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px 15px 20px;
+        font-size: 15px;
+        border-bottom: 1px solid rgb(216, 216, 216);
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 410px)
+{
+    .questions .q-item
+    {
+        color: black;
+        font-family: 'semibold';
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px 15px 20px;
+        font-size: 13px;
+        border-bottom: 1px solid rgb(216, 216, 216);
+        cursor: pointer;
+    }
+    .questions .q-item span {
+        margin-right: 7px;
+    }
+    .questions .a-item
+    {
+        color: rgb(155, 155, 155);
+        font-family: 'semibold';
+        font-size: 13px;
+        padding: 10px 20px;
+        display: none;
+    }
+
+}
+footer
+{
+    background: #161c2d;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+footer #footer_links {
+	padding: 70px 0 50px;
+}
+footer #footer_links ul
+{
+    padding-bottom: 50px;
+}
+footer #footer_links ul li:not(:last-child) {
+ margin-bottom: 5px;
+}
+footer #footer_links ul
+{
+    text-align: justify;
+}
+#footer_title
+{
+    color: #fff;
+    font-family: 'bold';
+	font-size: 16px;
+	font-weight: 600;
+}
+footer #footer_links ul li a {
+	font-size: 13px;
+    font-family: 'regular';
+	color: rgb(214, 214, 214);
+}
+footer #footer_links ul li a:hover {
+	color: orangered;
+	text-decoration: underline !important;
+}
+footer .lower-footer
+{
+	color: rgb(214, 214, 214);
+	font-family: 'regular';
+}
+footer hr
+{
+	stroke: #fff;
+	border-bottom: 1px solid #fff;
+}
+footer .c-r
+{
+	color: rgb(214, 214, 214);
+	font-size: 13px;
+	font-family: 'regular';
+}
+footer .t-c
+{
+	display: flex;
+	justify-content: space-around;
+}
+footer .t-c .t-c-p
+{
+	color: rgb(214, 214, 214);
+	font-size: 13px;
+	font-family: 'regular';
+}
+footer .t-c .t-c-p:hover
+{
+	color: orangered;
+}
+footer .payment-logos
+{
+	padding-top: 30px;
+	padding-left: 60px;
+}
+@media only screen and (max-width: 768px)
+{
+	footer .payment-logos
+	{
+		padding-top: 30px;
+		padding-left: 20px;
+	}
+}
+@media only screen and (max-width: 366px)
+{
+	footer .t-c
+	{
+		margin-top: 20px;
+		text-align: center;
+		color: rgb(214, 214, 214);
+		flex-direction: column;
+		font-size: 13px;
+	}
+}
+.choose
+{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.choose .choose-row
+{
+    margin-top: 70px;
+}
+.choose .choose-item
+{
+    margin-bottom: 40px;
+}
+.choose .choose-item h5
+{
+    font-family: 'bold';
+    color: black;
+}
+.choose .choose-item p
+{
+    font-family: 'semibold';
+    color: rgb(160, 160, 160);
+}
+.easy-link
+{
+    padding: 100px 5% 70px 5% !important;
+}
+.easy-link .easy-item
+{
+    
+    transition: .4s;
+    border-radius: 6px;
+    border: 2px solid rgba(216, 216, 216, 0.5);
+    border-bottom: 6px solid #1E90FF;
+    height: 220px;
+    position: relative;
+}
+.easy-link .easy-item:hover
+{
+    box-shadow: 0px 0px 20px 15px rgba(216, 216, 216, 0.5);
+}
+.easy-link .easy-item .row
+{
+    padding: 20px 20px 20px 20px;
+}
+.easy-link .easy-item h5
+{
+    color: black;
+    font-family: 'bold';
+}
+.easy-link .easy-item p
+{
+    color: black;
+    font-family: 'regular';
+}
+.easy-link .easy-item h3
+{
+    color: black;
+    font-family: 'bold';
+    font-size: 16px;
+}
+.easy-link .easy-item a
+{
+    padding: 10px;
+    color: white !important;
+    background-color: orangered;
+    font-family: 'semibold';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer .payment-logos p
+{
+    font-family: 'bold';
+    font-size: 25px;
+    color: rgb(214, 214, 214);
+}
+footer .payment-logos span
+{
+    font-family: 'semibold';
+    font-size: 17px;
+    color: rgb(214, 214, 214);
+}
+footer .payment-logos a
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer .payment-logos div
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
